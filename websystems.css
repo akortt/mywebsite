@@ -1,0 +1,195 @@
+/* CSS for Navigation bar */
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(126, 175, 190);
+}
+  
+.header li {
+    float: left; 
+    font-size: 150%;
+}
+  
+.header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 130%; 
+}
+  
+.header li a:hover {
+    background-color: #277d6e;
+}
+
+#active {
+    background-color: #04AA6D;
+}
+
+/* CSS for Index HTML */
+
+#homehead {
+    text-decoration-line: underline; 
+    color: #00a0aa;   
+}
+
+#introduction {
+    font-size: 350%;
+    text-align: center; 
+    color: #00699b; 
+}
+
+.indexbody {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    margin-left:10px;
+    background-color: gainsboro;
+    font-family:sans-serif, 'Times New Roman', Times, serif; 
+}
+
+.main {
+    padding-left: 25px; 
+    font-size: 170%;
+}
+
+
+.footer {
+    font-family:'Times New Roman', Times, serif; 
+    text-align: left;
+    background: #789fcc;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: whitesmoke;
+    font-size: 100%
+}
+
+#main-img {
+    float: right; 
+    padding-right: 10px; 
+    height:400px;
+    width: 400px; 
+
+}
+
+/* CSS for Comments HTML */
+
+#personal-reflection {
+    text-align: center; 
+}
+
+#table, th, td {
+    font-size: 25px;
+    border: 1px solid;
+    width: 50%;
+    height: 20%;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table th {
+    background-color: #789fcc;
+}
+
+#table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#commh3 {
+    text-decoration-line: underline;
+    color: #00699b;  
+}
+
+#past123 {
+    color: #00699b; 
+}
+
+#special-table-item {
+    color: red
+}
+
+#test123 {
+    color: #00a0aa; 
+}
+
+#code {
+    font-style: italic;
+}
+
+.structure-png {
+    float: right; 
+    padding-right: 10px; 
+    padding-left: 20px;  
+    width: 530px;
+    height: 310px;
+}
+
+.color-png {
+    float: right;   
+    width: 530px;
+    height: 270px;
+    border: 3px solid;
+}
+
+.code-png {
+    float: right; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+}
+
+.iphone-png {
+    float: right; 
+    width: 300px;
+    height: 470px;
+    padding-right: 10px; 
+    padding-left: 10px; 
+}
+
+#source {
+    float: right; 
+    padding-right: 5%; 
+    padding-top: 1%; 
+}
+
+#header-comment {
+    font-weight: bold; 
+    color: orangered;
+    padding-left: 50px; 
+}
+
+#main-comment {
+    font-weight: bold; 
+    color: rgb(54, 124, 154); 
+    padding-left: 50px; 
+}
+
+#footer-comment {
+    font-weight: bold; 
+    color: rgb(34, 105, 34); 
+    padding-left: 50px; 
+}
+
+/* CSS for Past HTML */
+
+.personal-list {
+    font-style:italic
+}
+
+#scratch-png {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#source-scratch {
+    font-style:italic; 
+    text-align: center; 
+}
+
+/* CSS for Future HTML */
